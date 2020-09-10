@@ -1,0 +1,3 @@
+<ul>
+    <li *ngFor="let menuItem of menuItems$ | async "><a routerLink="{{menuItem.path}}">{{menuItem.title}}</a></li>
+</ul>
